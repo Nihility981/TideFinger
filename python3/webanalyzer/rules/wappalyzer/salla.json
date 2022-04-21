@@ -1,0 +1,10 @@
+{
+    "website": "https://salla.sa",
+    "name": "Salla",
+    "matches": [
+        {
+            "search": "headers[x-powered-by]",
+            "regexp": "^Salla$"
+        }
+    ]
+}

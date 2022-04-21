@@ -1,0 +1,30 @@
+{
+    "website": "https://vtex.com/",
+    "name": "VTEX",
+    "matches": [
+        {
+            "search": "headers[powered]",
+            "regexp": "vtex"
+        },
+        {
+            "search": "headers[server]",
+            "regexp": "^VTEX IO$"
+        },
+        {
+            "search": "cookies[VtexStoreVersion]",
+            "regexp": ".*"
+        },
+        {
+            "search": "cookies[VtexWorkspace]",
+            "regexp": ".*"
+        },
+        {
+            "search": "cookies[VtexFingerPrint]",
+            "regexp": ".*"
+        },
+        {
+            "search": "cookies[vtex_session]",
+            "regexp": ".*"
+        }
+    ]
+}

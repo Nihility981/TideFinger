@@ -1,0 +1,15 @@
+{
+    "website": "https://www.inveon.com",
+    "name": "Inveon",
+    "matches": [
+        {
+            "search": "cookies[inveonSessionId]",
+            "regexp": ".*"
+        },
+        {
+            "search": "cookies[INV.Customer]",
+            "certainty": 50,
+            "regexp": ".*"
+        }
+    ]
+}
