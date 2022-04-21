@@ -76,11 +76,16 @@ def requests_headers():
 
 
 # colour
-W = '\033[0m'
-G = '\033[1;32m'
-R = '\033[1;31m'
-O = '\033[1;33m'
-B = '\033[1;34m'
+# W = '\033[0m'
+# G = '\033[1;32m'
+# R = '\033[1;31m'
+# O = '\033[1;33m'
+# B = '\033[1;34m'
+W = ''
+G = ''
+R = ''
+O = ''
+B = ''
 
 # User-Agent
 agent = {'UserAgent': 'Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))'}
